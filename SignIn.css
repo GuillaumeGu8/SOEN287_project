@@ -1,0 +1,122 @@
+.background{
+   
+   background-color:rgba(243, 162, 195, 0.995);
+     display:flex;
+      height:800px;
+     }
+
+.mainbox{
+                width: 600px;
+                height:700px;
+               /* position: relative*/
+                background-color:rgba(255, 255, 255, 0.995);
+                color:black;
+                display:block;
+                /*align-items:center;*/
+               /* border-radius:15px;*/
+                margin:60px auto 0 auto;
+                text-align:left;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size:16pt;
+                box-sizing: border-box;
+                padding: 15px;
+                font-weight: normal;
+                border-radius: 15px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            }
+.logo{
+    position: absolute;
+    top: 10px;
+    right:15px;
+    width:60px;
+    height:auto;
+}
+
+            .mainbox h3{
+                color:rgb(126, 207, 244);
+                text-align:center;
+                font-weight: bold;
+                margin top: 0;
+            }
+
+            .mainbox label{
+                font-weight: normal;
+                color: black;
+                display:block;
+                margin-bottom: 4px;
+            }
+   
+            .mainbox input[type="text"],
+.mainbox input[type="text"],
+.mainbox input[type="email"],
+.mainbox select,
+.mainbox textarea {
+  width: 100%; /* changed from 80% to 100% so boxes reach full width */
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14pt;
+  box-sizing: border-box; /* keeps padding inside width */
+  color: black;
+}
+
+.mainbox textarea {
+  resize: vertical; /* added */
+  min-height: 80px; /* added */
+}
+
+/* Style for the submit button */
+.mainbox input[type="submit"] {
+  display: block;              /* makes it take full line */
+  width: calc(100%-20px);                 /* full width of .mainbox */
+  padding: 15px;               /* taller button */
+  margin: 20px auto 0 auto;            /* space above */
+  background-color: rgb(126, 207, 244);;   /* orange color */
+  color: white;                /* white text */
+  font-size: 16pt;             /* bigger text */
+  font-weight: bold;           /* bold text */
+  border: none;                /* no border */
+  border-radius: 6px;          /* rounded corners */
+  cursor: pointer;             /* pointer on hover */
+  text-align: center;          /* center text inside */
+  box-sizing: border-box;
+}
+
+/* hover effect  */
+.mainbox input[type="submit"]:hover {
+  background-color: #c4eef6;   /* slightly darker on hover */
+}
+
+.new-account {
+    text-align:center;
+    margin-top: 20px;
+    font-size: 14px;
+    color:#333;
+}
+
+new account a{
+    color:#6ec7f7;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.ressources-grid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 1fr));  
+  row-gap: 20px;      
+  justify-content: center; 
+  margin-top: 30px;
+}
+.ressource-icon{
+   width: 70px;      
+  height: auto;
+  display: block;
+  margin: 0 auto 8px;  
+  border-radius: 8px;
+
+}
+
+.ressource{
+  text-align: center;
+}
