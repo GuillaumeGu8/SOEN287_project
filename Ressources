@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devide-width, inital-scale=1.0">
+             <link rel="stylesheet" type="text/css" href="SignIn.css">
+       
+    </head>
+
+
+ <div class="background">
+
+    <body>
+    <div class="mainbox">
+        <img src = "https://www.concordia.ca/content/concordia/en/social/guidelines-conduct.img.png/1650398601839.png" 
+     alt = "concordia logo" 
+     class="logo"/>
+
+            <h3>NOT-CONCORDIA RESSOURCES</h3>
+<div class="ressources-grid">
+
+<div class="ressource">
+            <img class="ressource-icon" src ="https://cdn-icons-png.flaticon.com/512/5583/5583492.png"
+            alt = "rooms">
+                <p>Rooms</p>
+</div>
+
+<div class="ressource">
+                <img class="ressource-icon" src ="https://images.emojiterra.com/google/android-12l/512px/1f9ea.png"
+            alt = "labs">
+               <p> Labs</p>
+            </div>
+
+<div class="ressource">
+                <img class="ressource-icon" src ="https://images.emojiterra.com/google/android-12l/512px/1f5d3.png"
+            alt = "calender">
+               <p>Calender</p>
+               </div>
+
+<div class="ressource">
+                <img class="ressource-icon" src ="https://images.emojiterra.com/google/android-10/512px/2699.png"
+            alt = "equipment">
+               <p>Equipment</p>
+</div>
+
+
+
+               
+</div></div></body>
+           
