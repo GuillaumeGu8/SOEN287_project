@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lab Room Booking Schedule</title>
+        <link rel="stylesheet" href="Booking.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Book a Lab Room </h1>
+            <input type= "date" id= "datePicker"/>
+        </header>
+
+        <div id="mainWrap" class="wrap">
+            <div id="schedule" class="schedule"></div>
+        </div>
+
+        <div id="bookingForm">
+            <div class="form-content">
+                <h3 id="formTitle"> Book Slot</h3>
+                <input type="text" id="name" placeholder="Your name"/>
+                <textarea id="purpose" placeholder="Purpose"></textarea>
+                <div class="form-buttons">
+                    <button class="save-btn" id="saveBooking">Save</button>
+                    <button class="delete-btn" id="deleteBooking" style="display: none;">Delete</button>
+                    <button class="cancel-btn" id="cancelBooking">Cancel</button>
+                </div>
+            </div>
+        </div>
+       
+        <script src="LabBooking.js"></script>
+    </body>
+</html>

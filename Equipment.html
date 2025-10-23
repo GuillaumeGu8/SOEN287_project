@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Equipment Booking Schedule</title>
+        <link rel="stylesheet" href="Booking.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Book Equipments</h1>
+             <input type= "date" id= "datePicker"/>
+        </header>
+
+                <div id="mainWrap" class="wrap">
+                    <div style="display:flex;gap:0.5rem;align-items:center;margin:0.75rem 0;">
+                        <input id="equipmentSearch" type="search" placeholder="Search equipment..." style="flex:1;padding:0.4rem;border-radius:6px;border:1px solid #eee;" />
+                        <select id="categorySelect" style="padding:0.4rem;border-radius:6px;border:1px solid #eee;">
+                            <option value="all">All categories</option>
+                            <option value="Whiteboard">Whiteboards</option>
+                            <option value="Audio">Audio</option>
+                            <option value="Projector">Projectors</option>
+                            <option value="Laptop">Laptops</option>
+                            <option value="Microscope">Microscopes</option>
+                            <option value="Toolkit">Toolkits</option>
+                            <option value="3D">3D Printer</option>
+                            <option value="Lab Kit">Lab Kits</option>
+                        </select>
+                    </div>
+
+                    <div id="schedule" class="schedule"></div>
+                </div>
+
+        <div id="bookingForm">
+            <div class="form-content">
+                <h3 id="formTitle"> Book Slot</h3>
+                <input type="text" id="name" placeholder="Your name"/>
+                <textarea id="purpose" placeholder="Purpose"></textarea>
+                <div class="form-buttons">
+                    <button class="save-btn" id="saveBooking">Save</button>
+                    <button class="delete-btn" id="deleteBooking" style="display: none;">Delete</button>
+                    <button class="cancel-btn" id="cancelBooking">Cancel</button>
+                </div>
+            </div>
+        </div>
+       
+        <script src="EquipmentBooking.js"></script>
+    </body>
+</html>

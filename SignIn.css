@@ -47,7 +47,7 @@
             }
    
             .mainbox input[type="text"],
-.mainbox input[type="text"],
+.mainbox input[type="password"],
 .mainbox input[type="email"],
 .mainbox select,
 .mainbox textarea {
